@@ -109,7 +109,7 @@ function enviarDados() {
         let usuario = dados[index];
         if ((nome === usuario.nome) && (senha === usuario.senha)) {
             localStorage.setItem("nome", nome)
-            window.location.href"./home.html";
+            window.location.href = "./home.html";
             break; // para interromper o loop após encontrar uma correspondência
         } 
     } 

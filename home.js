@@ -327,6 +327,6 @@ function testarusersenha2() {
 const sair = document.querySelector("input#sair")
 sair.addEventListener("click", function () {
     localStorage.removeItem("nome")
-    window.location.href = "file:///C:/telaDeLogin/Login/index.html
+    window.location.href = "file:///C:/telaDeLogin/Login/index.html"
 })
 
